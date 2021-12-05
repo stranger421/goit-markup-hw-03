@@ -24,16 +24,14 @@ ul li {
   --active-color: #2196f3;
 }
 
-
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-style: normal;
-  
 }
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .container {
   width: 1200px;
@@ -46,6 +44,10 @@ body {
 header .container {
   display: flex;
   justify-content: space-between;
+}
+
+.header {
+  border: 1px solid #ececec;
 }
 
 header .logo {
@@ -67,7 +69,6 @@ header .logo {
 .color-black {
   color: var(--main-color);
 }
-
 
 /* Контакти */
 
@@ -154,7 +155,7 @@ header .logo {
   text-transform: uppercase;
   color: var(--main-color);
   width: 270px;
-  height: 16px; 
+  height: 16px;
   margin-bottom: 10px;
 }
 
@@ -191,18 +192,13 @@ header .logo {
 
 .work-list:not(:last-child) {
   margin-right: 30px;
-  
 }
 
 /* Наша команда */
 
 .our-comand {
-  background: #F5F4FA;
-  padding-top: 94px;
+  background: #f5f4fa;
 }
-
-
-
 
 .comand-header {
   font-weight: bold;
@@ -213,20 +209,19 @@ header .logo {
   color: var(--main-color);
 
   margin-bottom: 50px;
- 
 }
 
 .comand {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .comand-list {
   margin-right: 30px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  }
+}
 
 .comand-list-name {
   text-align: center;
@@ -248,6 +243,7 @@ header .logo {
   letter-spacing: 0.03em;
   color: var(--sec-color);
 }
+/* Футер */
 
 .footer {
   background: #2f303a;
@@ -261,7 +257,6 @@ header .logo {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 10px;
-
 }
 
 .footer-contacts {
@@ -272,7 +267,6 @@ header .logo {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 10px;
 }
-
 
 footer .logo {
   margin-right: 93px;
@@ -289,15 +283,27 @@ footer .logo {
 .color-white {
   color: #fff;
 }
+
+/* .logo, .color-white { */
+/* margin-top: 20px; */
+/* } */
+
 .home a:hover,
 .home a:focus,
 .footer-contacts a:hover,
-.footer-contacts a:focus
+.footer-contacts a:focus,
 
 
+/* dddd */
 
 
+.address {
+  margin-top: 20px;
+}
 
+.footer-list:not(last-child) {
+  margin-bottom: 10px;
+}
 
 /* Portfolio */
 .portfolio-content {
@@ -318,13 +324,12 @@ footer .logo {
   padding-bottom: 50px;
 }
 
-
 .portfolio-button {
   padding: 6px 22px;
   text-align: center;
   color: var(--main-color);
-  background: #F5F4FA;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -338,7 +343,6 @@ footer .logo {
   margin-right: 8px;
 }
 
-
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: #188ce8;
@@ -346,24 +350,21 @@ footer .logo {
 }
 
 /* .portfolio-button:not(:last-child) { */
- 
 
 .portfolio-list {
   padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 /* Список возможностей */
 .portfolio-list-item:nth-child(-n + 6) {
   /* margin-right: 10px; */
-  margin-bottom: 10px;
-  
+  margin-bottom: 30px;
 }
 .portfolio-list-item {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 .possibilities {
   font-weight: bold;
@@ -371,7 +372,6 @@ footer .logo {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
-  
 }
 .possibilities-text {
   font-size: 16px;
@@ -382,5 +382,4 @@ footer .logo {
 
 .portfolio-spektr {
   margin: 20px 24px;
-  
 }
