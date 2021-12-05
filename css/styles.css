@@ -62,10 +62,7 @@ header .logo {
   letter-spacing: 0.03em;
   color: var(--active-color);
 }
-.logo span {
-  margin-left: 5px;
-}
-
+/*  */
 .color-black {
   color: var(--main-color);
 }
@@ -175,7 +172,7 @@ header .logo {
 }
 
 /* Чем ми занимаємься */
-.work-header {
+.header-main {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -198,17 +195,6 @@ header .logo {
 
 .our-comand {
   background: #f5f4fa;
-}
-
-.comand-header {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-
-  margin-bottom: 50px;
 }
 
 .comand {
