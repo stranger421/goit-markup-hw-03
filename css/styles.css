@@ -320,7 +320,6 @@ footer .logo {
 }
 
 .filter-button {
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -352,7 +351,7 @@ footer .logo {
 /* .portfolio-button:not(:last-child) { */
 
 .portfolio-list {
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
